@@ -5,7 +5,7 @@ def url_get_contents(url):
         return f.read()
 def tfr_list():
     url = "https://tfr.faa.gov/tfr2/list.html"
-    filepath = "./tfr.json"
+    filepath = "./tfrs.json"
     from html_table_parser.parser import HTMLTableParser
     import pandas as pd
     xhtml = url_get_contents(url).decode('utf-8')
@@ -78,7 +78,7 @@ def parse_tfr(notam_number):
 def get_list_and_parse():
     tfr_list()
     import json
-    f = open('./tfr.json',)
+    f = open('./tfrs.json',)
     tfrs = json.load(f)
     detailed = []
     for tfr in tfrs:
