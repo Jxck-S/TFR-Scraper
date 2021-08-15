@@ -1,7 +1,12 @@
 # TFR-Scraper
-Scrapes TFRs from FAA site 
-Scrapes list of TFRS from https://tfr.faa.gov/, then parses details per xml of TFR. 
-Single list object w/o details parsed
+Scrapes TFRs from FAA site https://tfr.faa.gov/ and able to parse details per xml of TFR. 
+
+## Requirements
+- html_table_parser.parser https://pypi.org/project/html-table-parser-python3/
+- untangle https://pypi.org/project/untangle/
+- pandas https://pypi.org/project/pandas/
+
+Single tfr object from list w/o details parsed
 ```json [
     {
         "Date": "08/13/2021",

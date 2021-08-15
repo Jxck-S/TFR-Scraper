@@ -4,6 +4,7 @@ def url_get_contents(url):
         f = urllib.request.urlopen(req)
         return f.read()
 def tfr_list():
+    """Downloads TFR table and parses, returns a list of tfrs as dictionaries"""
     url = "https://tfr.faa.gov/tfr2/list.html"
     filepath = "./tfrs.json"
     from html_table_parser.parser import HTMLTableParser
@@ -18,10 +19,12 @@ def tfr_list():
     df.replace("", None, inplace=True)
     df = df.dropna(how='any', subset=['NOTAM'])
     print(df)
-    df.to_json(filepath, orient='records')
+    tfrs = df.to_dict('records')
+    return tfrs 
 def parse_tfr(notam_number):
+    "Parses a single TFR number for details, downloads details and returns dictionary"
     import requests
-    import pandas as pd
+    print("Getting details on", notam_number)
     notam_number = notam_number.replace("/", "_")
     url = f"https://tfr.faa.gov/save_pages/detail_{notam_number}.xml"
     try:
@@ -69,21 +72,23 @@ def parse_tfr(notam_number):
             except AttributeError:
                 if len(shape_path) == 1:
                     parsed['shapes'] = None
-
-        import json
         return parsed
     except Exception as e :
         print("Couldn't Parse", notam_number, e)
-
-def get_list_and_parse():
-    tfr_list()
-    import json
-    f = open('./tfrs.json',)
-    tfrs = json.load(f)
-    detailed = []
-    for tfr in tfrs:
-        print(tfr["NOTAM"])
+def get_list_and_parse_all():
+    """Downloads list of TFRs and parses all returns basic list combined with details for each (list of dicts)"""
+    tfr_list_basic = tfr_list()
+    detailed_list = []
+    for tfr in tfr_list_basic:
         tfr['details'] = parse_tfr(tfr['NOTAM'])
-        detailed.append(tfr)
-    with open('detailed_tfrs.json', 'w', encoding='utf-8') as f:
-        json.dump(detailed, f, ensure_ascii=False, indent=4)
+        detailed_list.append(tfr)
+    return detailed_list 
+def save_as_json(input, filepath, indent=None):
+    import json
+    with open(filepath, 'w', encoding='utf-8') as f:
+        json.dump(input, f, ensure_ascii=False, indent=indent)
+
+def all():
+    detailed_tfrs = get_list_and_parse_all()
+    save_as_json(detailed_tfrs, "./detailed_tfrs.json")
+all()
