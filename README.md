@@ -1,16 +1,23 @@
 # TFR-Scraper
-Scrapes TFRs from FAA site https://tfr.faa.gov/ and able to parse details per xml of TFR. 
+Scrapes TFRs from FAA site https://tfr.faa.gov/ and details for each TFR.
 
 ## Requirements
 - html_table_parser.parser https://pypi.org/project/html-table-parser-python3/
 - untangle https://pypi.org/project/untangle/
 - pandas https://pypi.org/project/pandas/
 
+## Functions
+```python 
+tfr_list() #Returns the basic list of TFRs
+parse_tfr(notam_number) #Parses a notam number in full format like (1/8339) and will return the details of the tfr. 
+get_list_and_parse_all() #Downloads TFR list and parses all combines details with list and returns it.
+all(filepath) #Does get_list_and_parse_all() and saves as a json, filepath is optional default is ./detailed_tfrs.json
+```
 ### TFR/Shape types
 - TFRs have many types weather it be just a circle or a polygon or a TFR can have multiple circles/polygons, this scraper will parse each. 
-- Below is an example of each and the type of shapes the parser will return for each 
+- Below is an example of each and the type of shapes the parser will return in the shapes list for each when the details are parsed
 #### Single Circle 
-![Alt text](examples/type-images/Single-Circle.gif?raw=true "Single Circle"){:height="50%" width="50%"}
+!<img src="examples/type-images/Single-Circle.gif?raw=true" width="40%">
 ```json
             "shapes": [
                 {
@@ -22,7 +29,7 @@ Scrapes TFRs from FAA site https://tfr.faa.gov/ and able to parse details per xm
                 }
 ```
 #### Single Polygon
- ![Alt text](examples/type-images/Single-Poly.gif?raw=true "Single Poly"){:height="50%" width="50%"}
+ !<img src="examples/type-images/Single-Poly.gif?raw=true" width="40%">
 ```json
             "shapes": [
                 {
@@ -56,7 +63,7 @@ Scrapes TFRs from FAA site https://tfr.faa.gov/ and able to parse details per xm
                     "up_to": "8500"
 ```
 #### Multi Circle
-![Alt text](examples/type-images/Multi-Circle.gif?raw=true "Multi Circle"){:height="50%" width="50%"}
+!<img src="examples/type-images/Multi-Circle.gif?raw=true" width="40%">
 ```json
             "shapes": [
                 {
@@ -75,8 +82,8 @@ Scrapes TFRs from FAA site https://tfr.faa.gov/ and able to parse details per xm
                 }
             ]
 ```
-## TFR Json objects
-Single tfr object from list w/o details parsed
+## TFR JSON objects
+Single TFR object from list w/o details parsed
 ```json [
     {
         "Date": "08/13/2021",
@@ -136,3 +143,5 @@ A detailed object when combined with info from list
         }
     }
 ```
+- [Basic list JSON example](https://github.com/Jxck-S/TFR-Scraper/blob/main/examples/tfrs.json)
+- [Detailed list JSON example](https://github.com/Jxck-S/TFR-Scraper/blob/main/examples/detailed_tfrs.json) 
