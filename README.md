@@ -14,7 +14,7 @@ get_list_and_parse_all() #Downloads TFR list and parses all combines details wit
 all(filepath) #Does get_list_and_parse_all() and saves as a json, filepath is optional default is ./detailed_tfrs.json
 ```
 ### TFR/Shape types
-- TFRs have many types weather it be just a circle or a polygon or a TFR can have multiple circles/polygons, this scraper will parse each. 
+- TFRs have many types wether it be just a circle or a polygon or a TFR can have multiple circles/polygons, this scraper will parse each. 
 - Below is an example of each and the type of shapes the parser will return in the shapes list for each when the details are parsed
 #### Single Circle 
 !<img src="examples/type-images/Single-Circle.gif?raw=true" width="40%">

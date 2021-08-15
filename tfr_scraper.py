@@ -5,7 +5,7 @@ def url_get_contents(url):
         return f.read()
 def tfr_list():
     """Downloads TFR table and parses, returns a list of tfrs as dictionaries"""
-    url = "https://tfr.faa.gov/tfr2/list.html"
+    url = "https://tfr.faa.gov"
     filepath = "./tfrs.json"
     from html_table_parser.parser import HTMLTableParser
     import pandas as pd
@@ -88,7 +88,7 @@ def save_as_json(input, filepath, indent=None):
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump(input, f, ensure_ascii=False, indent=indent)
 
-def all():
+def all(filepath="./detailed_tfrs.json"):
     detailed_tfrs = get_list_and_parse_all()
-    save_as_json(detailed_tfrs, "./detailed_tfrs.json")
+    save_as_json(detailed_tfrs, filepath)
 all()
