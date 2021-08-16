@@ -20,8 +20,17 @@ def tfr_list():
     df = df.dropna(how='any', subset=['NOTAM'])
     print(df)
     tfrs = df.to_dict('records')
-    return tfrs 
-def parse_tfr(notam_number):
+    return tfrs
+def dms_to_dd(coord_pair):
+    """Converts a pair from Degrees Minute Seconds to Decimal Degrees """
+    # ("26.02333333N", 097.12833333W") >>  (26.02333333, -97.12833333)
+    #FAA coordinates in XML are technically DMS but only NESW part no minutes or seconds, not really a known standard for coordinates 
+    directions = {'N':1, 'S':-1, 'E': 1, 'W':-1}
+    new_pair = []
+    for coord in coord_pair:
+        new_pair.append(float(coord.strip("WNSE")) * directions[coord[-1]])
+    return new_pair
+def parse_tfr(notam_number, convert_degrees=True):
     "Parses a single TFR number for details, downloads details and returns dictionary"
     import requests
     print("Getting details on", notam_number)
@@ -58,10 +67,18 @@ def parse_tfr(notam_number):
             if type(point_data) is list:
                 shape = {"type" : "poly", "points" : []}
                 for point in point_data:
-                    shape["points"].append((point.geoLat.cdata, point.geoLong.cdata))
+                    if convert_degrees:
+                        pair = dms_to_dd((point.geoLat.cdata, point.geoLong.cdata))
+                    else:
+                        pair = point
+                    shape["points"].append(pair)
 
             else:
-                shape = {"type" : "circle", "radius" : point_data.valRadiusArc.cdata, "lat" : point_data.geoLat.cdata, "lon" : point_data.geoLong.cdata}
+                if convert_degrees:
+                    pair = dms_to_dd((point_data.geoLat.cdata, point_data.geoLong.cdata))
+                else:
+                    pair = (point_data.geoLat.cdata, point_data.geoLong.cdata)
+                shape = {"type" : "circle", "radius" : point_data.valRadiusArc.cdata, "lat" : pair[0], "lon" : pair[1]}
             return shape
         parsed['shapes'] = []
         for shape_path in shape_paths:
@@ -75,12 +92,12 @@ def parse_tfr(notam_number):
         return parsed
     except Exception as e :
         print("Couldn't Parse", notam_number, e)
-def get_list_and_parse_all():
+def get_list_and_parse_all(convert_degrees=True):
     """Downloads list of TFRs and parses all returns basic list combined with details for each (list of dicts)"""
     tfr_list_basic = tfr_list()
     detailed_list = []
     for tfr in tfr_list_basic:
-        tfr['details'] = parse_tfr(tfr['NOTAM'])
+        tfr['details'] = parse_tfr(tfr['NOTAM'], convert_degrees)
         detailed_list.append(tfr)
     return detailed_list 
 def save_as_json(input, filepath, indent=None):
