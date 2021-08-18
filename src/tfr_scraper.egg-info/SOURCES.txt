@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/tfr_scraper/__init__.py
+src/tfr_scraper/tfr_scraper.py
+src/tfr_scraper.egg-info/PKG-INFO
+src/tfr_scraper.egg-info/SOURCES.txt
+src/tfr_scraper.egg-info/dependency_links.txt
+src/tfr_scraper.egg-info/requires.txt
+src/tfr_scraper.egg-info/top_level.txt

@@ -1,3 +1,7 @@
+from numpy import compare_chararrays
+from untangle import parse
+
+
 def url_get_contents(url):
         import urllib.request
         req = urllib.request.Request(url=url)
@@ -67,11 +71,19 @@ def parse_tfr(notam_number, convert_degrees=True):
             if type(point_data) is list:
                 shape = {"type" : "poly", "points" : []}
                 for point in point_data:
-                    if convert_degrees:
-                        pair = dms_to_dd((point.geoLat.cdata, point.geoLong.cdata))
+                    if hasattr(point, "valRadiusArc"):
+                        shape['type'] = "polyarc"
+                        shape['arcRadius'] = point.valRadiusArc.cdata
+    
+                        pair = (point.geoLatArc.cdata, point.geoLongArc.cdata)
                     else:
-                        pair = point
-                    shape["points"].append(pair)
+                        pair = (point.geoLat.cdata, point.geoLong.cdata)
+                    if convert_degrees:
+                        pair = dms_to_dd(pair)
+                    if shape['type'] == "polyarc" and "arcpoint" not in shape.keys():
+                        shape['arcPoint'] = pair
+                    else:
+                        shape["points"].append(pair)
 
             else:
                 if convert_degrees:
@@ -80,17 +92,55 @@ def parse_tfr(notam_number, convert_degrees=True):
                     pair = (point_data.geoLat.cdata, point_data.geoLong.cdata)
                 shape = {"type" : "circle", "radius" : point_data.valRadiusArc.cdata, "lat" : pair[0], "lon" : pair[1]}
             return shape
+        def parse_merged_abd(point_data):
+            points = []
+            for point in point_data:
+                pair = (point.geoLat.cdata, point.geoLong.cdata)
+                if convert_degrees:
+                    pair = dms_to_dd(pair)
+                points.append(pair)
+            return points
         parsed['shapes'] = []
+        known_aseTFRAreaKeys = ["txtName", "valDistVerUpper", "valDistVerLower", "uomDistVerUpper", "uomDistVerLower"]
         for shape_path in shape_paths:
             try:
-                shape = parse_shape(eval(f"shape_path.aseShapes.Abd.Avx"))
-                shape['up_to'] = eval(f"shape_path.aseTFRArea.valDistVerUpper.cdata")
+                if type(shape_path.aseShapes) is not list:
+                    shape = parse_shape(shape_path.aseShapes.Abd.Avx)
+                else:
+                    #Ignores two exact circles
+                    not_matching = False
+                    compare_to = {}
+                    for aseSh in shape_path.aseShapes:
+                        try:
+                            avx = aseSh.Abd.Avx
+                            if compare_to == {}:
+                                for key in ["geoLat", "geoLong", "valRadiusArc", "uomRadiusArc"]:
+                                    compare_to[key] = eval(f"avx.{key}")
+                            else:
+                                for key, val in compare_to.items():
+                                    if val != eval(f"avx.{key}"):
+                                        not_matching = True
+                        except AttributeError:
+                            not_matching = True
+                        if not_matching:
+                            break   
+                    if not_matching:
+                        shape = {"type" : "polyexclude"}
+                        shape['all_points'] = parse_merged_abd(shape_path.abdMergedArea.Avx)
+                    else:
+                        shape = parse_shape(shape_path.aseShapes[0].Abd.Avx)
+                if shape['type'] == "polyarc":
+                    shape['all_points'] = parse_merged_abd(shape_path.abdMergedArea.Avx)
+                for key in known_aseTFRAreaKeys:
+                    if hasattr(shape_path.aseTFRArea, key):
+                        shape[key] = eval(f"shape_path.aseTFRArea.{key}.cdata")
                 parsed['shapes'].append(shape)
-            except AttributeError:
+            except AttributeError as e:
+                print(e)
                 if len(shape_path) == 1:
                     parsed['shapes'] = None
         return parsed
-    except Exception as e :
+    except Exception as e:
         print("Couldn't Parse", notam_number, e)
 def get_list_and_parse_all(convert_degrees=True):
     """Downloads list of TFRs and parses all returns basic list combined with details for each (list of dicts)"""
@@ -105,7 +155,6 @@ def save_as_json(input, filepath, indent=None):
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump(input, f, ensure_ascii=False, indent=indent)
 
-def all(filepath="./detailed_tfrs.json"):
+def save_detailed_all(filepath="./detailed_tfrs.json"):
     detailed_tfrs = get_list_and_parse_all()
     save_as_json(detailed_tfrs, filepath)
-all()

@@ -1,992 +1,983 @@
 [
-    {
-        "Date": "08/13/2021",
-        "NOTAM": "1/7932",
-        "Facility": "ZSE",
-        "State": "CA",
-        "Type": "HAZARDS",
-        "Description": "35NM SE YREKA, CA, Friday, August 13, 2021 through Sunday, September 05, 2021 UTC New",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/13/2021",
-        "NOTAM": "1/7918",
-        "Facility": "ZOA",
-        "State": "CA",
-        "Type": "HAZARDS",
-        "Description": "35NM WEST OF RED BLUFF, CA, Friday, August 13, 2021 through Sunday, September 05, 2021 UTC New",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/13/2021",
-        "NOTAM": "1/7823",
-        "Facility": "ZOA",
-        "State": "CA",
-        "Type": "HAZARDS",
-        "Description": "SUSANVILLE, CA, Friday, August 13, 2021 through Sunday, September 05, 2021 UTC New",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/13/2021",
-        "NOTAM": "1/7693",
-        "Facility": "ZSE",
-        "State": "OR",
-        "Type": "HAZARDS",
-        "Description": "33NM SE KLAMATH FALLS, OR, Friday, August 13, 2021 through Wednesday, September 01, 2021 UTC New",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/13/2021",
-        "NOTAM": "1/7455",
-        "Facility": "ZLA",
-        "State": "CA",
-        "Type": "AIR SHOWS/SPORTS",
-        "Description": "CAMARILLO, CA, Friday, August 20, 2021 through Sunday, August 22, 2021 UTC New",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/13/2021",
-        "NOTAM": "1/7313",
-        "Facility": "ZOB",
-        "State": "PA",
-        "Type": "HAZARDS",
-        "Description": "MONACA, PA, Sunday, August 15, 2021 through Monday, August 16, 2021 UTC New",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/13/2021",
-        "NOTAM": "1/7312",
-        "Facility": "ZLC",
-        "State": "MT",
-        "Type": "HAZARDS",
-        "Description": "30 NM SW OF GREAT FALLS, MT, Friday, August 13, 2021 through Thursday, September 30, 2021 UTC New",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/13/2021",
-        "NOTAM": "1/7274",
-        "Facility": "ZSE",
-        "State": "ID",
-        "Type": "HAZARDS",
-        "Description": "14 NM E OF SANDPOINT, ID, Friday, August 13, 2021 through Thursday, September 30, 2021 UTC New",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/13/2021",
-        "NOTAM": "1/7268",
-        "Facility": "ZSE",
-        "State": "OR",
-        "Type": "HAZARDS",
-        "Description": "10NM W OF LAKEVIEW, OR, Friday, August 13, 2021 through Wednesday, September 01, 2021 UTC New",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/13/2021",
-        "NOTAM": "1/7266",
-        "Facility": "ZLC",
-        "State": "ID",
-        "Type": "HAZARDS",
-        "Description": "26NM NW OF STANLEY, ID, Friday, August 13, 2021 through Thursday, September 30, 2021 UTC New",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/12/2021",
-        "NOTAM": "1/7105",
-        "Facility": "ZNY",
-        "State": "MD",
-        "Type": "VIP",
-        "Description": "Hagerstown/Thurmont, MD, Friday, August 13, 2021 through Wednesday, August 18, 2021 Local",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/12/2021",
-        "NOTAM": "1/7104",
-        "Facility": "ZDC",
-        "State": "MD",
-        "Type": "VIP",
-        "Description": "Hagerstown/Thurmont, MD, Friday, August 13, 2021 through Wednesday, August 18, 2021 Local",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/12/2021",
-        "NOTAM": "1/7076",
-        "Facility": "ZAN",
-        "State": "AK",
-        "Type": "SPACE OPERATIONS",
-        "Description": "80NM S OF KODIAK, AK, Monday, August 16, 2021 through Thursday, August 19, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/12/2021",
-        "NOTAM": "1/7039",
-        "Facility": "ZAB",
-        "State": "TX",
-        "Type": "SECURITY",
-        "Description": "Van Horn, TX, Sunday, August 15, 2021 through Sunday, August 22, 2021 Local",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/12/2021",
-        "NOTAM": "1/7040",
-        "Facility": "ZAB",
-        "State": "TX",
-        "Type": "SECURITY",
-        "Description": "Van Horn, TX, Sunday, August 15, 2021 through Sunday, August 22, 2021 Local",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/12/2021",
-        "NOTAM": "1/7038",
-        "Facility": "ZAB",
-        "State": "TX",
-        "Type": "SECURITY",
-        "Description": "Van Horn, TX, Sunday, August 15, 2021 through Sunday, August 22, 2021 Local",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/12/2021",
-        "NOTAM": "1/6607",
-        "Facility": "ZSE",
-        "State": "WA",
-        "Type": "HAZARDS",
-        "Description": "WAUCONDA, WA, Thursday, August 12, 2021 through Wednesday, September 01, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/12/2021",
-        "NOTAM": "1/6486",
-        "Facility": "ZOA",
-        "State": "CA",
-        "Type": "SECURITY",
-        "Description": "Beale AFB, CA, Sunday, August 15, 2021 through Sunday, August 22, 2021 Local",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/12/2021",
-        "NOTAM": "1/6482",
-        "Facility": "ZUA",
-        "State": "GU",
-        "Type": "SECURITY",
-        "Description": "Andersen AFB, GU, Sunday, August 15, 2021 through Sunday, August 22, 2021 Local",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/12/2021",
-        "NOTAM": "1/6464",
-        "Facility": "ZMP",
-        "State": "ND",
-        "Type": "SECURITY",
-        "Description": "Grand Forks AFB, ND, Sunday, August 15, 2021 through Saturday, August 21, 2021 Local",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/12/2021",
-        "NOTAM": "1/6123",
-        "Facility": "ZLC",
-        "State": "ID",
-        "Type": "HAZARDS",
-        "Description": "44NM NE BOISE, ID, Thursday, August 12, 2021 through Wednesday, August 25, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/12/2021",
-        "NOTAM": "1/6117",
-        "Facility": "ZAU",
-        "State": "IL",
-        "Type": "AIR SHOWS/SPORTS",
-        "Description": "Chicago, IL, Friday, August 20, 2021 through Sunday, August 22, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/12/2021",
-        "NOTAM": "1/6105",
-        "Facility": "ZMP",
-        "State": "WI",
-        "Type": "AIR SHOWS/SPORTS",
-        "Description": "Holmen, WI, Friday, August 20, 2021 through Saturday, August 21, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/12/2021",
-        "NOTAM": "1/6097",
-        "Facility": "ZMP",
-        "State": "WI",
-        "Type": "AIR SHOWS/SPORTS",
-        "Description": "West Salem, WI, Saturday, August 21, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/12/2021",
-        "NOTAM": "1/6085",
-        "Facility": "ZMP",
-        "State": "WI",
-        "Type": "AIR SHOWS/SPORTS",
-        "Description": "Holmen, WI, Saturday, August 21, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/12/2021",
-        "NOTAM": "1/6082",
-        "Facility": "ZMP",
-        "State": "WI",
-        "Type": "AIR SHOWS/SPORTS",
-        "Description": "Holmen, WI, Sunday, August 22, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/12/2021",
-        "NOTAM": "1/5868",
-        "Facility": "ZSE",
-        "State": "OR",
-        "Type": "HAZARDS",
-        "Description": "13NM NE OF TILLAMOOK, OR, Thursday, August 12, 2021 through Wednesday, September 01, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/12/2021",
-        "NOTAM": "1/5867",
-        "Facility": "ZSE",
-        "State": "ID",
-        "Type": "HAZARDS",
-        "Description": "18NM NE OF LEWISTON, ID, Thursday, August 12, 2021 through Thursday, September 30, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/12/2021",
-        "NOTAM": "1/5866",
-        "Facility": "ZSE",
-        "State": "MT",
-        "Type": "HAZARDS",
-        "Description": "12NM N OF TROY, MT, Thursday, August 12, 2021 through Thursday, September 30, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/11/2021",
-        "NOTAM": "1/5561",
-        "Facility": "ZFW",
-        "State": "TX",
-        "Type": "SECURITY",
-        "Description": "San Angelo, TX, Sunday, August 15, 2021 through Friday, August 20, 2021 Local",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/11/2021",
-        "NOTAM": "1/5336",
-        "Facility": "ZDV",
-        "State": "UT",
-        "Type": "HAZARDS",
-        "Description": "EAST CARBON, UT, Wednesday, August 11, 2021 through Tuesday, August 31, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/11/2021",
-        "NOTAM": "1/5311",
-        "Facility": "ZNY",
-        "State": "PA",
-        "Type": "AIR SHOWS/SPORTS",
-        "Description": "LONG POND, PA, Thursday, August 19, 2021 through Sunday, August 22, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/11/2021",
-        "NOTAM": "1/5007",
-        "Facility": "ZLC",
-        "State": "MT",
-        "Type": "HAZARDS",
-        "Description": "COLSTRIP, MT, Wednesday, August 11, 2021 through Thursday, September 30, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/11/2021",
-        "NOTAM": "1/5006",
-        "Facility": "ZLC",
-        "State": "MT",
-        "Type": "HAZARDS",
-        "Description": "16NM W OF WISDOM, MT, Wednesday, August 11, 2021 through Thursday, September 30, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/11/2021",
-        "NOTAM": "1/5005",
-        "Facility": "ZLC",
-        "State": "MT",
-        "Type": "HAZARDS",
-        "Description": "7NM WSW OF WISE RIVER, MT, Wednesday, August 11, 2021 through Thursday, September 30, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/11/2021",
-        "NOTAM": "1/4930",
-        "Facility": "ZSE",
-        "State": "WA",
-        "Type": "HAZARDS",
-        "Description": "33NM E OFLLALLA, WA, Wednesday, August 11, 2021 through Wednesday, September 01, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/11/2021",
-        "NOTAM": "1/4929",
-        "Facility": "ZSE",
-        "State": "WA",
-        "Type": "HAZARDS",
-        "Description": "17NM W OF NACHES, WA, Wednesday, August 11, 2021 through Wednesday, September 01, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/11/2021",
-        "NOTAM": "1/4928",
-        "Facility": "ZSE",
-        "State": "OR",
-        "Type": "HAZARDS",
-        "Description": "CANYONVILLE, OR, Wednesday, August 11, 2021 through Wednesday, September 01, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/11/2021",
-        "NOTAM": "1/4846",
-        "Facility": "ZLC",
-        "State": "OR",
-        "Type": "HAZARDS",
-        "Description": "30NM SE OF JOHN DAY, OR, Wednesday, August 11, 2021 through Wednesday, September 01, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/10/2021",
-        "NOTAM": "1/4074",
-        "Facility": "ZSE",
-        "State": "OR",
-        "Type": "HAZARDS",
-        "Description": "40NM SE OF EUGENE, OR, Tuesday, August 10, 2021 through Wednesday, September 01, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/10/2021",
-        "NOTAM": "1/4072",
-        "Facility": "ZSE",
-        "State": "OR",
-        "Type": "HAZARDS",
-        "Description": "25NM N OF MEDFORD, OR, Tuesday, August 10, 2021 through Wednesday, September 01, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/10/2021",
-        "NOTAM": "1/4071",
-        "Facility": "ZSE",
-        "State": "OR",
-        "Type": "HAZARDS",
-        "Description": "25NM N OF MEDFORD, OR, Tuesday, August 10, 2021 through Wednesday, September 01, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/10/2021",
-        "NOTAM": "1/4070",
-        "Facility": "ZSE",
-        "State": "ID",
-        "Type": "HAZARDS",
-        "Description": "36 NM SE OF GRANGEVILLE, ID, Tuesday, August 10, 2021 through Thursday, September 30, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/10/2021",
-        "NOTAM": "1/3991",
-        "Facility": "ZKC",
-        "State": "KS",
-        "Type": "HAZARDS",
-        "Description": "MATFIELD GREEN, KS, Monday, August 16, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/09/2021",
-        "NOTAM": "1/3986",
-        "Facility": "ZSE",
-        "State": "WA",
-        "Type": "HAZARDS",
-        "Description": "10NM SE OMAK, WA, Monday, August 09, 2021 through Monday, August 30, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/09/2021",
-        "NOTAM": "1/3955",
-        "Facility": "ZSE",
-        "State": "CA",
-        "Type": "HAZARDS",
-        "Description": "45NM NW REDDING, CA, Monday, August 09, 2021 through Sunday, September 05, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/09/2021",
-        "NOTAM": "1/3840",
-        "Facility": "ZLA",
-        "State": "NV",
-        "Type": "HAZARDS",
-        "Description": "LOS ANGELES, DESERT ROCK, NV, Tuesday, August 17, 2021 through Thursday, August 19, 2021 Local",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/09/2021",
-        "NOTAM": "1/3769",
-        "Facility": "ZID",
-        "State": "KY",
-        "Type": "AIR SHOWS/SPORTS",
-        "Description": "Indianapolis Center, Owensboro, KY, Thursday, August 12, 2021 through Sunday, August 15, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/09/2021",
-        "NOTAM": "1/3676",
-        "Facility": "ZSE",
-        "State": "OR",
-        "Type": "HAZARDS",
-        "Description": "51NM ENE EUGENE, OR, Monday, August 09, 2021 through Tuesday, August 31, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/09/2021",
-        "NOTAM": "1/3482",
-        "Facility": "ZSE",
-        "State": "WA",
-        "Type": "HAZARDS",
-        "Description": "23NM SW COVILLE, WA, Monday, August 09, 2021 through Sunday, August 29, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/08/2021",
-        "NOTAM": "1/3270",
-        "Facility": "ZLC",
-        "State": "ID",
-        "Type": "HAZARDS",
-        "Description": "SALMON, ID, Monday, August 09, 2021 through Thursday, September 16, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/08/2021",
-        "NOTAM": "1/3254",
-        "Facility": "ZOA",
-        "State": "CA",
-        "Type": "HAZARDS",
-        "Description": "45NM W OF REDDING, CA, Sunday, August 08, 2021 through Sunday, September 05, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/08/2021",
-        "NOTAM": "1/3200",
-        "Facility": "ZLC",
-        "State": "MT",
-        "Type": "HAZARDS",
-        "Description": "26NM ESE OF HELENA, MT, Sunday, August 08, 2021 through Friday, October 08, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/08/2021",
-        "NOTAM": "1/3196",
-        "Facility": "ZSE",
-        "State": "WA",
-        "Type": "HAZARDS",
-        "Description": "16NM NW WINTHROP, WA, Sunday, August 08, 2021 through Monday, August 23, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/08/2021",
-        "NOTAM": "1/3186",
-        "Facility": "ZSE",
-        "State": "WA",
-        "Type": "HAZARDS",
-        "Description": "7NM SW LOOMIS, WA, Sunday, August 08, 2021 through Saturday, August 28, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/07/2021",
-        "NOTAM": "1/3068",
-        "Facility": "ZAB",
-        "State": "TX",
-        "Type": "SECURITY",
-        "Description": "Van Horn, TX, Sunday, August 08, 2021 through Sunday, August 15, 2021 Local",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/07/2021",
-        "NOTAM": "1/3067",
-        "Facility": "ZAB",
-        "State": "TX",
-        "Type": "SECURITY",
-        "Description": "Van Horn, TX, Sunday, August 08, 2021 through Sunday, August 15, 2021 Local",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/07/2021",
-        "NOTAM": "1/3066",
-        "Facility": "ZAB",
-        "State": "TX",
-        "Type": "SECURITY",
-        "Description": "Van Horn, TX, Sunday, August 08, 2021 through Sunday, August 15, 2021 Local",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/07/2021",
-        "NOTAM": "1/3048",
-        "Facility": "ZSE",
-        "State": "ID",
-        "Type": "HAZARDS",
-        "Description": "30 NM NE OF OROFINO, ID, Saturday, August 07, 2021 through Sunday, September 19, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/07/2021",
-        "NOTAM": "1/3045",
-        "Facility": "ZLC",
-        "State": "MT",
-        "Type": "HAZARDS",
-        "Description": "6NM NE POLSON, MT, Saturday, August 07, 2021 through Wednesday, October 06, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/06/2021",
-        "NOTAM": "1/2545",
-        "Facility": "ZSE",
-        "State": "WA",
-        "Type": "HAZARDS",
-        "Description": "15NM NW KETTLE FALLS, WA, Friday, August 06, 2021 through Thursday, August 26, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/06/2021",
-        "NOTAM": "1/2528",
-        "Facility": "ZSE",
-        "State": "WA",
-        "Type": "HAZARDS",
-        "Description": "5NM N ORIENT, WA, Friday, August 06, 2021 through Thursday, August 26, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/05/2021",
-        "NOTAM": "1/2440",
-        "Facility": "ZLA",
-        "State": "CA",
-        "Type": "SECURITY",
-        "Description": "Calexico, CA, Sunday, August 08, 2021 through Saturday, August 14, 2021 Local",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/05/2021",
-        "NOTAM": "1/2431",
-        "Facility": "ZLA",
-        "State": "CA",
-        "Type": "SECURITY",
-        "Description": "Coyote Wells, CA, Sunday, August 08, 2021 through Saturday, August 14, 2021 Local",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/05/2021",
-        "NOTAM": "1/2304",
-        "Facility": "ZOA",
-        "State": "CA",
-        "Type": "SECURITY",
-        "Description": "Beale AFB, CA, Sunday, August 08, 2021 through Sunday, August 15, 2021 Local",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/05/2021",
-        "NOTAM": "1/2303",
-        "Facility": "ZUA",
-        "State": "GU",
-        "Type": "SECURITY",
-        "Description": "Andersen AFB, GU, Sunday, August 08, 2021 through Sunday, August 15, 2021 Local",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/05/2021",
-        "NOTAM": "1/2289",
-        "Facility": "ZMP",
-        "State": "ND",
-        "Type": "SECURITY",
-        "Description": "Grand Forks AFB, ND, Sunday, August 08, 2021 through Saturday, August 14, 2021 Local",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/05/2021",
-        "NOTAM": "1/1948",
-        "Facility": "ZOA",
-        "State": "CA",
-        "Type": "HAZARDS",
-        "Description": "MARKLEEVILE, CA, Thursday, August 05, 2021 through Tuesday, August 31, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/04/2021",
-        "NOTAM": "1/1441",
-        "Facility": "ZFW",
-        "State": "TX",
-        "Type": "SECURITY",
-        "Description": "San Angelo, TX, Sunday, August 08, 2021 through Friday, August 13, 2021 Local",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/04/2021",
-        "NOTAM": "1/0927",
-        "Facility": "ZKC",
-        "State": "IL",
-        "Type": "AIR SHOWS/SPORTS",
-        "Description": "Kansas CIty Center, Decatur, IL, Friday, August 13, 2021 through Saturday, August 14, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/04/2021",
-        "NOTAM": "1/0925",
-        "Facility": "ZKC",
-        "State": "IL",
-        "Type": "AIR SHOWS/SPORTS",
-        "Description": "Kansas City Center, Decatur, IL, Friday, August 13, 2021 through Sunday, August 15, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/04/2021",
-        "NOTAM": "1/0761",
-        "Facility": "ZSE",
-        "State": "OR",
-        "Type": "HAZARDS",
-        "Description": "12NM NE DETROIT, OR, Wednesday, August 04, 2021 through Sunday, October 03, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/04/2021",
-        "NOTAM": "1/0753",
-        "Facility": "ZSE",
-        "State": "MT",
-        "Type": "HAZARDS",
-        "Description": "15NM SW OF ST REGIS, MT, Wednesday, August 04, 2021 through Thursday, September 30, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/03/2021",
-        "NOTAM": "1/0023",
-        "Facility": "ZSE",
-        "State": "OR",
-        "Type": "HAZARDS",
-        "Description": "24NM E ROSEBURG, OR, Tuesday, August 03, 2021 through Saturday, October 02, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/03/2021",
-        "NOTAM": "1/0017",
-        "Facility": "ZOA",
-        "State": "CA",
-        "Type": "HAZARDS",
-        "Description": "YOSEMITE NATIONAL PARK, CA, Tuesday, August 03, 2021 through Wednesday, November 03, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/02/2021",
-        "NOTAM": "1/9853",
-        "Facility": "ZHU",
-        "State": "TX",
-        "Type": "SPACE OPERATIONS",
-        "Description": "BROWNSVILLE, TX, Monday, August 02, 2021 through Tuesday, August 31, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/02/2021",
-        "NOTAM": "1/9324",
-        "Facility": "ZSE",
-        "State": "CA",
-        "Type": "HAZARDS",
-        "Description": "35NM ESE YREKA, CA, Monday, August 02, 2021 through Tuesday, August 31, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "07/30/2021",
-        "NOTAM": "1/8619",
-        "Facility": "ZDC",
-        "State": "DC",
-        "Type": "AIR SHOWS/SPORTS",
-        "Description": "ATLANTIC CITY BEACH, NJ, DC, Tuesday, August 17, 2021 through Wednesday, August 18, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "07/29/2021",
-        "NOTAM": "1/7632",
-        "Facility": "ZLC",
-        "State": "MT",
-        "Type": "HAZARDS",
-        "Description": "24NM SW OF HARLOWTON, MT, Thursday, July 29, 2021 through Wednesday, September 29, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "07/27/2021",
-        "NOTAM": "1/5856",
-        "Facility": "ZNY",
-        "State": "NJ",
-        "Type": "AIR SHOWS/SPORTS",
-        "Description": "WEST MILFORD, NJ, Friday, August 13, 2021 through Sunday, August 15, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "07/26/2021",
-        "NOTAM": "1/5506",
-        "Facility": "ZLC",
-        "State": "MT",
-        "Type": "HAZARDS",
-        "Description": "19NM NNE MISSOULA, MT, Tuesday, July 27, 2021 through Monday, September 27, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "07/22/2021",
-        "NOTAM": "1/3764",
-        "Facility": "ZLC",
-        "State": "MT",
-        "Type": "HAZARDS",
-        "Description": "22NM NW OF WEST GLACIER, MT, Thursday, July 22, 2021 through Wednesday, September 22, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "07/22/2021",
-        "NOTAM": "1/3680",
-        "Facility": "ZSE",
-        "State": "MT",
-        "Type": "HAZARDS",
-        "Description": "7NM N THOMPSON FALLS, MT, Thursday, July 22, 2021 through Wednesday, September 22, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "07/22/2021",
-        "NOTAM": "1/3587",
-        "Facility": "ZLC",
-        "State": "MT",
-        "Type": "HAZARDS",
-        "Description": "6NM SSW OF LOLO HOT SPRINGS, MT, Thursday, July 22, 2021 through Wednesday, September 22, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "07/22/2021",
-        "NOTAM": "1/3581",
-        "Facility": "ZSE",
-        "State": "ID",
-        "Type": "HAZARDS",
-        "Description": "20NM SE OF LEWISTON, ID, Thursday, July 22, 2021 through Wednesday, September 22, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "07/19/2021",
-        "NOTAM": "1/1741",
-        "Facility": "ZLC",
-        "State": "WY",
-        "Type": "HAZARDS",
-        "Description": "28NM NE OF LOVELL, WY, Monday, July 19, 2021 through Sunday, September 19, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "07/12/2021",
-        "NOTAM": "1/7262",
-        "Facility": "ZSE",
-        "State": "ID",
-        "Type": "HAZARDS",
-        "Description": "5NM NE OF KELLOGG, ID, Monday, July 12, 2021 through Sunday, September 12, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "07/10/2021",
-        "NOTAM": "1/6758",
-        "Facility": "ZDV",
-        "State": "CO",
-        "Type": "HAZARDS",
-        "Description": "13NM N OF STEAMBOAT SPRINGS, CO, Saturday, July 10, 2021 through Friday, September 10, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "07/10/2021",
-        "NOTAM": "1/6739",
-        "Facility": "ZSE",
-        "State": "MT",
-        "Type": "HAZARDS",
-        "Description": "9NM S OF TROY, MT, Saturday, July 10, 2021 through Friday, September 10, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "07/09/2021",
-        "NOTAM": "1/6366",
-        "Facility": "ZLC",
-        "State": "MT",
-        "Type": "HAZARDS",
-        "Description": "34 NM SE OF GREAT FALLS, MT, Friday, July 09, 2021 through Thursday, September 09, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "06/09/2021",
-        "NOTAM": "1/9640",
-        "Facility": "ZBW",
-        "State": "MA",
-        "Type": "HAZARDS",
-        "Description": "HANOVER, MA, Monday, June 28, 2021 through Friday, September 24, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "05/13/2021",
-        "NOTAM": "1/5318",
-        "Facility": "FDC",
-        "State": "USA",
-        "Type": "SECURITY",
-        "Description": "USA, Thursday, May 13, 2021 through Saturday, May 20, 2023 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "05/07/2021",
-        "NOTAM": "1/2955",
-        "Facility": "ZAN",
-        "State": "AK",
-        "Type": "SECURITY",
-        "Description": "CLEAR, AK, Friday, May 07, 2021 through Friday, October 01, 2021 Local",
-        "Zoom": ""
-    },
-    {
-        "Date": "05/07/2021",
-        "NOTAM": "1/2947",
-        "Facility": "ZAN",
-        "State": "AK",
-        "Type": "SECURITY",
-        "Description": "CLEAR, AK, Saturday, May 08, 2021 through Friday, October 01, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "03/27/2021",
-        "NOTAM": "1/1200",
-        "Facility": "ZUA",
-        "State": "GU",
-        "Type": "HAZARDS",
-        "Description": "ANDERSEN AFB, GU, Saturday, March 27, 2021 through Sunday, March 27, 2022 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "01/06/2021",
-        "NOTAM": "1/1373",
-        "Facility": "ZSU",
-        "State": "PR",
-        "Type": "HAZARDS",
-        "Description": "VIEQUES, PR, Monday, January 18, 2021 through Saturday, December 18, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "10/08/2020",
-        "NOTAM": "0/0230",
-        "Facility": "FDC",
-        "State": "USA",
-        "Type": "SECURITY",
-        "Description": "Special Notice, USA",
-        "Zoom": ""
-    },
-    {
-        "Date": "10/08/2020",
-        "NOTAM": "0/0229",
-        "Facility": "FDC",
-        "State": "USA",
-        "Type": "SECURITY",
-        "Description": "USA, Thursday, October 29, 2020 through Friday, October 29, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/29/2020",
-        "NOTAM": "0/9801",
-        "Facility": "FDC",
-        "State": "USA",
-        "Type": "SECURITY",
-        "Description": "USA, Tuesday, September 08, 2020 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "08/20/2020",
-        "NOTAM": "0/5116",
-        "Facility": "FDC",
-        "State": "USA",
-        "Type": "SECURITY",
-        "Description": "USA, Tuesday, September 01, 2020 through Wednesday, September 01, 2021 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "01/14/2020",
-        "NOTAM": "0/3929",
-        "Facility": "ZDC",
-        "State": "USA",
-        "Type": "SECURITY",
-        "Description": "USA, Wednesday, January 15, 2020 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "01/02/2020",
-        "NOTAM": "0/0367",
-        "Facility": "FDC",
-        "State": "USA",
-        "Type": "SECURITY",
-        "Description": "USA, Wednesday, January 15, 2020 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "01/02/2020",
-        "NOTAM": "0/0053",
-        "Facility": "ZDC",
-        "State": "USA",
-        "Type": "SECURITY",
-        "Description": "USA, Wednesday, January 15, 2020 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "12/30/2019",
-        "NOTAM": "9/1812",
-        "Facility": "ZDC",
-        "State": "USA",
-        "Type": "SECURITY",
-        "Description": "USA, Wednesday, January 15, 2020 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "12/30/2019",
-        "NOTAM": "9/1811",
-        "Facility": "ZDC",
-        "State": "USA",
-        "Type": "SPECIAL",
-        "Description": "USA, Wednesday, January 15, 2020 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "03/13/2018",
-        "NOTAM": "8/3984",
-        "Facility": "ZDC",
-        "State": "USA",
-        "Type": "SPECIAL",
-        "Description": "USA",
-        "Zoom": ""
-    },
-    {
-        "Date": "10/27/2014",
-        "NOTAM": "4/3635",
-        "Facility": "ZLA",
-        "State": "USA",
-        "Type": "SECURITY",
-        "Description": "USA, Monday, October 27, 2014 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "10/27/2014",
-        "NOTAM": "4/3634",
-        "Facility": "ZJX",
-        "State": "FL",
-        "Type": "SECURITY",
-        "Description": "DISNEY WORLD THEME PARK, ORLANDO, FL, Monday, October 27, 2014 UTC",
-        "Zoom": ""
-    },
-    {
-        "Date": "01/10/2011",
-        "NOTAM": "1/1155",
-        "Facility": "ZDC",
-        "State": "DC",
-        "Type": "SECURITY",
-        "Description": "55 ZDC, DC",
-        "Zoom": ""
-    },
-    {
-        "Date": "01/26/2009",
-        "NOTAM": "9/2934",
-        "Facility": "ZFW",
-        "State": "TX",
-        "Type": "VIP",
-        "Description": "Dallas, TX",
-        "Zoom": ""
-    }
+  {
+    "Date": "08/18/2021",
+    "NOTAM": "1/0984",
+    "Facility": "ZMP",
+    "State": "MN",
+    "Type": "HAZARDS",
+    "Description": "BABBITT, MN, Thursday, August 19, 2021 UTC New",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/18/2021",
+    "NOTAM": "1/0924",
+    "Facility": "ZBW",
+    "State": "NY",
+    "Type": "AIR SHOWS/SPORTS",
+    "Description": "Newburgh, NY, Wednesday, August 25, 2021 through Sunday, August 29, 2021 UTC New",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/18/2021",
+    "NOTAM": "1/0918",
+    "Facility": "ZFW",
+    "State": "TX",
+    "Type": "SECURITY",
+    "Description": "San Angelo, TX, Sunday, August 22, 2021 through Friday, August 27, 2021 Local New",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/18/2021",
+    "NOTAM": "1/0710",
+    "Facility": "ZLC",
+    "State": "MT",
+    "Type": "HAZARDS",
+    "Description": "49NM SSW MILES CITY, MT, Wednesday, August 18, 2021 through Friday, October 01, 2021 UTC New",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/18/2021",
+    "NOTAM": "1/0550",
+    "Facility": "ZOA",
+    "State": "CA",
+    "Type": "HAZARDS",
+    "Description": "18NM W REDDING, CA, Wednesday, August 18, 2021 through Friday, September 17, 2021 UTC New",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/18/2021",
+    "NOTAM": "1/0549",
+    "Facility": "ZLC",
+    "State": "MT",
+    "Type": "HAZARDS",
+    "Description": "31NM W HELENA, MT, Wednesday, August 18, 2021 through Friday, October 01, 2021 UTC New",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/18/2021",
+    "NOTAM": "1/0548",
+    "Facility": "ZLC",
+    "State": "MT",
+    "Type": "HAZARDS",
+    "Description": "23NM SSE GLENDIVE, MT, Wednesday, August 18, 2021 through Sunday, October 17, 2021 UTC New",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/18/2021",
+    "NOTAM": "1/0538",
+    "Facility": "ZLC",
+    "State": "ID",
+    "Type": "HAZARDS",
+    "Description": "18NM SOUTH OF TWIN FALLS, ID, Wednesday, August 18, 2021 through Saturday, September 18, 2021 UTC New",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/18/2021",
+    "NOTAM": "1/0454",
+    "Facility": "ZDC",
+    "State": "DE",
+    "Type": "VIP",
+    "Description": "Wilmington, DE, Thursday, August 19, 2021 through Sunday, August 22, 2021 Local New",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/17/2021",
+    "NOTAM": "1/0453",
+    "Facility": "ZNY",
+    "State": "DE",
+    "Type": "VIP",
+    "Description": "Wilmington, DE, Thursday, August 19, 2021 through Sunday, August 22, 2021 Local New",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/17/2021",
+    "NOTAM": "1/0451",
+    "Facility": "ZOA",
+    "State": "CA",
+    "Type": "HAZARDS",
+    "Description": "14NM W RED BLUF, CA, Tuesday, August 17, 2021 through Friday, September 17, 2021 UTC New",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/17/2021",
+    "NOTAM": "1/0337",
+    "Facility": "ZAN",
+    "State": "AK",
+    "Type": "SPACE OPERATIONS",
+    "Description": "KODIAK, AK, Tuesday, September 07, 2021 through Sunday, September 12, 2021 UTC New",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/17/2021",
+    "NOTAM": "1/0335",
+    "Facility": "ZAN",
+    "State": "AK",
+    "Type": "SPACE OPERATIONS",
+    "Description": "KODIAK, AK, Friday, August 27, 2021 through Saturday, September 04, 2021 UTC New",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/17/2021",
+    "NOTAM": "1/0268",
+    "Facility": "ZLC",
+    "State": "ID",
+    "Type": "HAZARDS",
+    "Description": "16NM ESE MCCALL, ID, Tuesday, August 17, 2021 through Wednesday, August 25, 2021 UTC New",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/17/2021",
+    "NOTAM": "1/0236",
+    "Facility": "ZOA",
+    "State": "CA",
+    "Type": "HAZARDS",
+    "Description": "6NM SE PLACERVILLE, CA, Tuesday, August 17, 2021 through Friday, September 17, 2021 UTC New",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/17/2021",
+    "NOTAM": "1/0217",
+    "Facility": "ZSE",
+    "State": "WA",
+    "Type": "HAZARDS",
+    "Description": "32NM NW YAKIMA, WA, Tuesday, August 17, 2021 through Friday, October 01, 2021 UTC New",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/17/2021",
+    "NOTAM": "1/9835",
+    "Facility": "ZBW",
+    "State": "ME",
+    "Type": "AIR SHOWS/SPORTS",
+    "Description": "BRUNSWICK, ME, Thursday, September 02, 2021 through Sunday, September 05, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/17/2021",
+    "NOTAM": "1/9487",
+    "Facility": "ZSE",
+    "State": "ID",
+    "Type": "HAZARDS",
+    "Description": "5NM NE OF KELLOGG, ID, Tuesday, August 17, 2021 through Thursday, September 30, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/17/2021",
+    "NOTAM": "1/9486",
+    "Facility": "ZSE",
+    "State": "ID",
+    "Type": "HAZARDS",
+    "Description": "9NM W OF ST MARIES, ID, Tuesday, August 17, 2021 through Thursday, September 30, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/17/2021",
+    "NOTAM": "1/9485",
+    "Facility": "ZSE",
+    "State": "WA",
+    "Type": "HAZARDS",
+    "Description": "25NM SW OF COLVILLE, WA, Tuesday, August 17, 2021 through Wednesday, September 01, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/17/2021",
+    "NOTAM": "1/9484",
+    "Facility": "ZSE",
+    "State": "OR",
+    "Type": "HAZARDS",
+    "Description": "12NM NE OF DETROIT, OR, Tuesday, August 17, 2021 through Wednesday, September 01, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/17/2021",
+    "NOTAM": "1/9481",
+    "Facility": "ZSE",
+    "State": "WA",
+    "Type": "HAZARDS",
+    "Description": "22NM NW OF SPOKANE, WA, Tuesday, August 17, 2021 through Wednesday, September 01, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/17/2021",
+    "NOTAM": "1/9477",
+    "Facility": "ZSE",
+    "State": "WA",
+    "Type": "HAZARDS",
+    "Description": "15NM NW OF CHELAN, WA, Tuesday, August 17, 2021 through Wednesday, September 01, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/17/2021",
+    "NOTAM": "1/9473",
+    "Facility": "ZSE",
+    "State": "MT",
+    "Type": "HAZARDS",
+    "Description": "9NM S OF TROY, MT, Tuesday, August 17, 2021 through Thursday, September 30, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/17/2021",
+    "NOTAM": "1/9450",
+    "Facility": "ZLC",
+    "State": "MT",
+    "Type": "HAZARDS",
+    "Description": "HAYS, MT, Tuesday, August 17, 2021 through Thursday, September 30, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/17/2021",
+    "NOTAM": "1/9449",
+    "Facility": "ZSE",
+    "State": "WA",
+    "Type": "HAZARDS",
+    "Description": "7NM SW OF LOOMIS, WA, Tuesday, August 17, 2021 through Wednesday, September 01, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/17/2021",
+    "NOTAM": "1/9445",
+    "Facility": "ZSE",
+    "State": "WA",
+    "Type": "HAZARDS",
+    "Description": "WAUCONDA, WA, Tuesday, August 17, 2021 through Wednesday, September 01, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/17/2021",
+    "NOTAM": "1/9419",
+    "Facility": "ZSE",
+    "State": "MT",
+    "Type": "HAZARDS",
+    "Description": "23NM NNE OF THOMPSON FALLS, MT, Tuesday, August 17, 2021 through Thursday, September 30, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/17/2021",
+    "NOTAM": "1/9315",
+    "Facility": "ZLA",
+    "State": "CA",
+    "Type": "HAZARDS",
+    "Description": "SPRINGVILLE, CA, Monday, August 16, 2021 through Saturday, October 16, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/16/2021",
+    "NOTAM": "1/9287",
+    "Facility": "ZMP",
+    "State": "MN",
+    "Type": "HAZARDS",
+    "Description": "12 NM NW OF BAUDETTE, MN, Tuesday, August 17, 2021 through Wednesday, September 01, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/16/2021",
+    "NOTAM": "1/9282",
+    "Facility": "ZMP",
+    "State": "MN",
+    "Type": "HAZARDS",
+    "Description": "18NM SE ELY, MN, Tuesday, August 17, 2021 through Friday, October 01, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/16/2021",
+    "NOTAM": "1/9221",
+    "Facility": "ZAN",
+    "State": "AK",
+    "Type": "HAZARDS",
+    "Description": "ADAK ISLAND, AK, Monday, August 16, 2021 through Tuesday, August 16, 2022 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/16/2021",
+    "NOTAM": "1/9214",
+    "Facility": "ZAN",
+    "State": "AK",
+    "Type": "HAZARDS",
+    "Description": "COLD BAY, AK, Monday, August 16, 2021 through Tuesday, August 16, 2022 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/16/2021",
+    "NOTAM": "1/8854",
+    "Facility": "ZMP",
+    "State": "MN",
+    "Type": "HAZARDS",
+    "Description": "KEEWATIN, MN, Thursday, August 19, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/16/2021",
+    "NOTAM": "1/8637",
+    "Facility": "ZSE",
+    "State": "MT",
+    "Type": "HAZARDS",
+    "Description": "17NM SW OF ST. REGIS, MT, Monday, August 16, 2021 through Thursday, September 30, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/16/2021",
+    "NOTAM": "1/8569",
+    "Facility": "ZSE",
+    "State": "OR",
+    "Type": "HAZARDS",
+    "Description": "25NM N OF MEDFORD, OR, Monday, August 16, 2021 through Friday, October 15, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/16/2021",
+    "NOTAM": "1/8568",
+    "Facility": "ZSE",
+    "State": "OR",
+    "Type": "HAZARDS",
+    "Description": "25NM N OF MEDFORD, OR, Monday, August 16, 2021 through Friday, October 15, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/15/2021",
+    "NOTAM": "1/8517",
+    "Facility": "ZSE",
+    "State": "OR",
+    "Type": "HAZARDS",
+    "Description": "24NM E ROSEBURG, OR, Sunday, August 15, 2021 through Friday, October 15, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/15/2021",
+    "NOTAM": "1/8490",
+    "Facility": "ZSE",
+    "State": "CA",
+    "Type": "HAZARDS",
+    "Description": "35NM SE YREKA, CA, Sunday, August 15, 2021 through Wednesday, September 15, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/15/2021",
+    "NOTAM": "1/8461",
+    "Facility": "ZHU",
+    "State": "TX",
+    "Type": "SECURITY",
+    "Description": "AUSTIN, TX, Wednesday, August 18, 2021 through Thursday, August 19, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/15/2021",
+    "NOTAM": "1/8339",
+    "Facility": "ZLC",
+    "State": "UT",
+    "Type": "HAZARDS",
+    "Description": "SALT LAKE CITY, UT, Sunday, August 15, 2021 through Sunday, October 31, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/15/2021",
+    "NOTAM": "1/8338",
+    "Facility": "ZSE",
+    "State": "OR",
+    "Type": "HAZARDS",
+    "Description": "40 NM SE OF EUGENE, OR, Sunday, August 15, 2021 through Thursday, October 14, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/15/2021",
+    "NOTAM": "1/8335",
+    "Facility": "ZSE",
+    "State": "ID",
+    "Type": "HAZARDS",
+    "Description": "35NM NE OF OROFINO, ID, Sunday, August 15, 2021 through Thursday, September 30, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/14/2021",
+    "NOTAM": "1/8132",
+    "Facility": "ZSE",
+    "State": "ID",
+    "Type": "HAZARDS",
+    "Description": "18NM NW OF LEWISTON, ID, Saturday, August 14, 2021 through Thursday, September 30, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/14/2021",
+    "NOTAM": "1/8055",
+    "Facility": "ZTL",
+    "State": "GA",
+    "Type": "SECURITY",
+    "Description": "Macon, GA, Friday, August 20, 2021 Local",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/14/2021",
+    "NOTAM": "1/8054",
+    "Facility": "ZTL",
+    "State": "GA",
+    "Type": "SECURITY",
+    "Description": "Macon, GA, Thursday, August 19, 2021 Local",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/14/2021",
+    "NOTAM": "1/8052",
+    "Facility": "ZLC",
+    "State": "MT",
+    "Type": "HAZARDS",
+    "Description": "26NM ESE OF HELENA, MT, Saturday, August 14, 2021 through Thursday, September 30, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/13/2021",
+    "NOTAM": "1/7823",
+    "Facility": "ZOA",
+    "State": "CA",
+    "Type": "HAZARDS",
+    "Description": "SUSANVILLE, CA, Friday, August 13, 2021 through Sunday, September 05, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/13/2021",
+    "NOTAM": "1/7455",
+    "Facility": "ZLA",
+    "State": "CA",
+    "Type": "AIR SHOWS/SPORTS",
+    "Description": "CAMARILLO, CA, Friday, August 20, 2021 through Sunday, August 22, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/13/2021",
+    "NOTAM": "1/7274",
+    "Facility": "ZSE",
+    "State": "ID",
+    "Type": "HAZARDS",
+    "Description": "14 NM E OF SANDPOINT, ID, Friday, August 13, 2021 through Thursday, September 30, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/13/2021",
+    "NOTAM": "1/7268",
+    "Facility": "ZSE",
+    "State": "OR",
+    "Type": "HAZARDS",
+    "Description": "10NM W OF LAKEVIEW, OR, Friday, August 13, 2021 through Wednesday, September 01, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/12/2021",
+    "NOTAM": "1/7039",
+    "Facility": "ZAB",
+    "State": "TX",
+    "Type": "SECURITY",
+    "Description": "Van Horn, TX, Sunday, August 15, 2021 through Sunday, August 22, 2021 Local",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/12/2021",
+    "NOTAM": "1/7040",
+    "Facility": "ZAB",
+    "State": "TX",
+    "Type": "SECURITY",
+    "Description": "Van Horn, TX, Sunday, August 15, 2021 through Sunday, August 22, 2021 Local",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/12/2021",
+    "NOTAM": "1/7038",
+    "Facility": "ZAB",
+    "State": "TX",
+    "Type": "SECURITY",
+    "Description": "Van Horn, TX, Sunday, August 15, 2021 through Sunday, August 22, 2021 Local",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/12/2021",
+    "NOTAM": "1/6486",
+    "Facility": "ZOA",
+    "State": "CA",
+    "Type": "SECURITY",
+    "Description": "Beale AFB, CA, Sunday, August 15, 2021 through Sunday, August 22, 2021 Local",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/12/2021",
+    "NOTAM": "1/6482",
+    "Facility": "ZUA",
+    "State": "GU",
+    "Type": "SECURITY",
+    "Description": "Andersen AFB, GU, Sunday, August 15, 2021 through Sunday, August 22, 2021 Local",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/12/2021",
+    "NOTAM": "1/6464",
+    "Facility": "ZMP",
+    "State": "ND",
+    "Type": "SECURITY",
+    "Description": "Grand Forks AFB, ND, Sunday, August 15, 2021 through Saturday, August 21, 2021 Local",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/12/2021",
+    "NOTAM": "1/6117",
+    "Facility": "ZAU",
+    "State": "IL",
+    "Type": "AIR SHOWS/SPORTS",
+    "Description": "Chicago, IL, Friday, August 20, 2021 through Sunday, August 22, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/12/2021",
+    "NOTAM": "1/6105",
+    "Facility": "ZMP",
+    "State": "WI",
+    "Type": "AIR SHOWS/SPORTS",
+    "Description": "Holmen, WI, Friday, August 20, 2021 through Saturday, August 21, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/12/2021",
+    "NOTAM": "1/6097",
+    "Facility": "ZMP",
+    "State": "WI",
+    "Type": "AIR SHOWS/SPORTS",
+    "Description": "West Salem, WI, Saturday, August 21, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/12/2021",
+    "NOTAM": "1/6085",
+    "Facility": "ZMP",
+    "State": "WI",
+    "Type": "AIR SHOWS/SPORTS",
+    "Description": "Holmen, WI, Saturday, August 21, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/12/2021",
+    "NOTAM": "1/6082",
+    "Facility": "ZMP",
+    "State": "WI",
+    "Type": "AIR SHOWS/SPORTS",
+    "Description": "Holmen, WI, Sunday, August 22, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/12/2021",
+    "NOTAM": "1/5866",
+    "Facility": "ZSE",
+    "State": "MT",
+    "Type": "HAZARDS",
+    "Description": "12NM N OF TROY, MT, Thursday, August 12, 2021 through Thursday, September 30, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/11/2021",
+    "NOTAM": "1/5561",
+    "Facility": "ZFW",
+    "State": "TX",
+    "Type": "SECURITY",
+    "Description": "San Angelo, TX, Sunday, August 15, 2021 through Friday, August 20, 2021 Local",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/11/2021",
+    "NOTAM": "1/5311",
+    "Facility": "ZNY",
+    "State": "PA",
+    "Type": "AIR SHOWS/SPORTS",
+    "Description": "LONG POND, PA, Thursday, August 19, 2021 through Sunday, August 22, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/11/2021",
+    "NOTAM": "1/5006",
+    "Facility": "ZLC",
+    "State": "MT",
+    "Type": "HAZARDS",
+    "Description": "16NM W OF WISDOM, MT, Wednesday, August 11, 2021 through Thursday, September 30, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/11/2021",
+    "NOTAM": "1/5005",
+    "Facility": "ZLC",
+    "State": "MT",
+    "Type": "HAZARDS",
+    "Description": "7NM WSW OF WISE RIVER, MT, Wednesday, August 11, 2021 through Thursday, September 30, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/11/2021",
+    "NOTAM": "1/4930",
+    "Facility": "ZSE",
+    "State": "WA",
+    "Type": "HAZARDS",
+    "Description": "33NM E OFLLALLA, WA, Wednesday, August 11, 2021 through Wednesday, September 01, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/11/2021",
+    "NOTAM": "1/4928",
+    "Facility": "ZSE",
+    "State": "OR",
+    "Type": "HAZARDS",
+    "Description": "CANYONVILLE, OR, Wednesday, August 11, 2021 through Wednesday, September 01, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/11/2021",
+    "NOTAM": "1/4846",
+    "Facility": "ZLC",
+    "State": "OR",
+    "Type": "HAZARDS",
+    "Description": "30NM SE OF JOHN DAY, OR, Wednesday, August 11, 2021 through Wednesday, September 01, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/10/2021",
+    "NOTAM": "1/4070",
+    "Facility": "ZSE",
+    "State": "ID",
+    "Type": "HAZARDS",
+    "Description": "36 NM SE OF GRANGEVILLE, ID, Tuesday, August 10, 2021 through Thursday, September 30, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/09/2021",
+    "NOTAM": "1/3986",
+    "Facility": "ZSE",
+    "State": "WA",
+    "Type": "HAZARDS",
+    "Description": "10NM SE OMAK, WA, Monday, August 09, 2021 through Monday, August 30, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/09/2021",
+    "NOTAM": "1/3955",
+    "Facility": "ZSE",
+    "State": "CA",
+    "Type": "HAZARDS",
+    "Description": "45NM NW REDDING, CA, Monday, August 09, 2021 through Sunday, September 05, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/09/2021",
+    "NOTAM": "1/3840",
+    "Facility": "ZLA",
+    "State": "NV",
+    "Type": "HAZARDS",
+    "Description": "LOS ANGELES, DESERT ROCK, NV, Tuesday, August 17, 2021 through Thursday, August 19, 2021 Local",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/08/2021",
+    "NOTAM": "1/3270",
+    "Facility": "ZLC",
+    "State": "ID",
+    "Type": "HAZARDS",
+    "Description": "SALMON, ID, Monday, August 09, 2021 through Thursday, September 16, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/08/2021",
+    "NOTAM": "1/3196",
+    "Facility": "ZSE",
+    "State": "WA",
+    "Type": "HAZARDS",
+    "Description": "16NM NW WINTHROP, WA, Sunday, August 08, 2021 through Monday, August 23, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/07/2021",
+    "NOTAM": "1/3045",
+    "Facility": "ZLC",
+    "State": "MT",
+    "Type": "HAZARDS",
+    "Description": "6NM NE POLSON, MT, Saturday, August 07, 2021 through Wednesday, October 06, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/06/2021",
+    "NOTAM": "1/2545",
+    "Facility": "ZSE",
+    "State": "WA",
+    "Type": "HAZARDS",
+    "Description": "15NM NW KETTLE FALLS, WA, Friday, August 06, 2021 through Thursday, August 26, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/05/2021",
+    "NOTAM": "1/1948",
+    "Facility": "ZOA",
+    "State": "CA",
+    "Type": "HAZARDS",
+    "Description": "MARKLEEVILE, CA, Thursday, August 05, 2021 through Tuesday, August 31, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/03/2021",
+    "NOTAM": "1/0017",
+    "Facility": "ZOA",
+    "State": "CA",
+    "Type": "HAZARDS",
+    "Description": "YOSEMITE NATIONAL PARK, CA, Tuesday, August 03, 2021 through Wednesday, November 03, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/02/2021",
+    "NOTAM": "1/9853",
+    "Facility": "ZHU",
+    "State": "TX",
+    "Type": "SPACE OPERATIONS",
+    "Description": "BROWNSVILLE, TX, Monday, August 02, 2021 through Tuesday, August 31, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/02/2021",
+    "NOTAM": "1/9324",
+    "Facility": "ZSE",
+    "State": "CA",
+    "Type": "HAZARDS",
+    "Description": "35NM ESE YREKA, CA, Monday, August 02, 2021 through Tuesday, August 31, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "07/30/2021",
+    "NOTAM": "1/8619",
+    "Facility": "ZDC",
+    "State": "DC",
+    "Type": "AIR SHOWS/SPORTS",
+    "Description": "ATLANTIC CITY BEACH, NJ, DC, Tuesday, August 17, 2021 through Wednesday, August 18, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "07/29/2021",
+    "NOTAM": "1/7632",
+    "Facility": "ZLC",
+    "State": "MT",
+    "Type": "HAZARDS",
+    "Description": "24NM SW OF HARLOWTON, MT, Thursday, July 29, 2021 through Wednesday, September 29, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "07/26/2021",
+    "NOTAM": "1/5506",
+    "Facility": "ZLC",
+    "State": "MT",
+    "Type": "HAZARDS",
+    "Description": "19NM NNE MISSOULA, MT, Tuesday, July 27, 2021 through Monday, September 27, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "07/22/2021",
+    "NOTAM": "1/3764",
+    "Facility": "ZLC",
+    "State": "MT",
+    "Type": "HAZARDS",
+    "Description": "22NM NW OF WEST GLACIER, MT, Thursday, July 22, 2021 through Wednesday, September 22, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "07/22/2021",
+    "NOTAM": "1/3680",
+    "Facility": "ZSE",
+    "State": "MT",
+    "Type": "HAZARDS",
+    "Description": "7NM N THOMPSON FALLS, MT, Thursday, July 22, 2021 through Wednesday, September 22, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "07/19/2021",
+    "NOTAM": "1/1741",
+    "Facility": "ZLC",
+    "State": "WY",
+    "Type": "HAZARDS",
+    "Description": "28NM NE OF LOVELL, WY, Monday, July 19, 2021 through Sunday, September 19, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "07/09/2021",
+    "NOTAM": "1/6366",
+    "Facility": "ZLC",
+    "State": "MT",
+    "Type": "HAZARDS",
+    "Description": "34 NM SE OF GREAT FALLS, MT, Friday, July 09, 2021 through Thursday, September 09, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "06/09/2021",
+    "NOTAM": "1/9640",
+    "Facility": "ZBW",
+    "State": "MA",
+    "Type": "HAZARDS",
+    "Description": "HANOVER, MA, Monday, June 28, 2021 through Friday, September 24, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "05/13/2021",
+    "NOTAM": "1/5318",
+    "Facility": "FDC",
+    "State": "USA",
+    "Type": "SECURITY",
+    "Description": "USA, Thursday, May 13, 2021 through Saturday, May 20, 2023 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "05/07/2021",
+    "NOTAM": "1/2955",
+    "Facility": "ZAN",
+    "State": "AK",
+    "Type": "SECURITY",
+    "Description": "CLEAR, AK, Friday, May 07, 2021 through Friday, October 01, 2021 Local",
+    "Zoom": ""
+  },
+  {
+    "Date": "05/07/2021",
+    "NOTAM": "1/2947",
+    "Facility": "ZAN",
+    "State": "AK",
+    "Type": "SECURITY",
+    "Description": "CLEAR, AK, Saturday, May 08, 2021 through Friday, October 01, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "03/27/2021",
+    "NOTAM": "1/1200",
+    "Facility": "ZUA",
+    "State": "GU",
+    "Type": "HAZARDS",
+    "Description": "ANDERSEN AFB, GU, Saturday, March 27, 2021 through Sunday, March 27, 2022 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "01/06/2021",
+    "NOTAM": "1/1373",
+    "Facility": "ZSU",
+    "State": "PR",
+    "Type": "HAZARDS",
+    "Description": "VIEQUES, PR, Monday, January 18, 2021 through Saturday, December 18, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "10/08/2020",
+    "NOTAM": "0/0230",
+    "Facility": "FDC",
+    "State": "USA",
+    "Type": "SECURITY",
+    "Description": "Special Notice, USA",
+    "Zoom": ""
+  },
+  {
+    "Date": "10/08/2020",
+    "NOTAM": "0/0229",
+    "Facility": "FDC",
+    "State": "USA",
+    "Type": "SECURITY",
+    "Description": "USA, Thursday, October 29, 2020 through Friday, October 29, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/29/2020",
+    "NOTAM": "0/9801",
+    "Facility": "FDC",
+    "State": "USA",
+    "Type": "SECURITY",
+    "Description": "USA, Tuesday, September 08, 2020 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "08/20/2020",
+    "NOTAM": "0/5116",
+    "Facility": "FDC",
+    "State": "USA",
+    "Type": "SECURITY",
+    "Description": "USA, Tuesday, September 01, 2020 through Wednesday, September 01, 2021 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "01/14/2020",
+    "NOTAM": "0/3929",
+    "Facility": "ZDC",
+    "State": "USA",
+    "Type": "SECURITY",
+    "Description": "USA, Wednesday, January 15, 2020 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "01/02/2020",
+    "NOTAM": "0/0367",
+    "Facility": "FDC",
+    "State": "USA",
+    "Type": "SECURITY",
+    "Description": "USA, Wednesday, January 15, 2020 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "01/02/2020",
+    "NOTAM": "0/0053",
+    "Facility": "ZDC",
+    "State": "USA",
+    "Type": "SECURITY",
+    "Description": "USA, Wednesday, January 15, 2020 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "12/30/2019",
+    "NOTAM": "9/1812",
+    "Facility": "ZDC",
+    "State": "USA",
+    "Type": "SECURITY",
+    "Description": "USA, Wednesday, January 15, 2020 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "12/30/2019",
+    "NOTAM": "9/1811",
+    "Facility": "ZDC",
+    "State": "USA",
+    "Type": "SPECIAL",
+    "Description": "USA, Wednesday, January 15, 2020 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "03/13/2018",
+    "NOTAM": "8/3984",
+    "Facility": "ZDC",
+    "State": "USA",
+    "Type": "SPECIAL",
+    "Description": "USA",
+    "Zoom": ""
+  },
+  {
+    "Date": "10/27/2014",
+    "NOTAM": "4/3635",
+    "Facility": "ZLA",
+    "State": "USA",
+    "Type": "SECURITY",
+    "Description": "USA, Monday, October 27, 2014 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "10/27/2014",
+    "NOTAM": "4/3634",
+    "Facility": "ZJX",
+    "State": "FL",
+    "Type": "SECURITY",
+    "Description": "DISNEY WORLD THEME PARK, ORLANDO, FL, Monday, October 27, 2014 UTC",
+    "Zoom": ""
+  },
+  {
+    "Date": "01/10/2011",
+    "NOTAM": "1/1155",
+    "Facility": "ZDC",
+    "State": "DC",
+    "Type": "SECURITY",
+    "Description": "55 ZDC, DC",
+    "Zoom": ""
+  },
+  {
+    "Date": "01/26/2009",
+    "NOTAM": "9/2934",
+    "Facility": "ZFW",
+    "State": "TX",
+    "Type": "VIP",
+    "Description": "Dallas, TX",
+    "Zoom": ""
+  }
 ]

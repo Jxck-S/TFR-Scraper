@@ -1,3 +1,18 @@
+Metadata-Version: 2.1
+Name: tfr-scraper
+Version: 0.0.6
+Summary: FAA TFR Scraper
+Home-page: https://github.com/Jxck-S/TFR-Scraper/tree/main
+Author: Jack Sweeney
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Jxck-S/TFR-Scraper/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
 # TFR-Scraper
 Scrapes TFRs from FAA site https://tfr.faa.gov/ and details for each TFR.
 
@@ -246,3 +261,4 @@ A detailed object when combined with info from list
 - html_table_parser.parser https://pypi.org/project/html-table-parser-python3/
 - untangle https://pypi.org/project/untangle/
 - pandas https://pypi.org/project/pandas/
+
