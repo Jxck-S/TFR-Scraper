@@ -139,7 +139,7 @@ save_detailed_all(filepath) #Does get_list_and_parse_all() and saves as a json, 
 #### Poly Exclude 
 - Any shape, circle or poly that has parts that are excluded from TFR.
 - Shape is returned as "all_points" only which represent one polygon excluding parts.
-<img src="https://raw.githubusercontent.com/Jxck-S/TFR-Scraper/main/examples/type-images/Poly-Exclude.gif" width="40%">
+!<img src="https://raw.githubusercontent.com/Jxck-S/TFR-Scraper/main/examples/type-images/Poly-Exclude.gif" width="40%">
 ```json
             "shapes": [
         {
