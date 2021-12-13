@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: tfr-scraper
-Version: 0.0.6
+Version: 0.0.7
 Summary: FAA TFR Scraper
 Home-page: https://github.com/Jxck-S/TFR-Scraper/tree/main
 Author: Jack Sweeney
@@ -12,6 +12,7 @@ Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.6
 Description-Content-Type: text/markdown
+License-File: LICENSE
 
 # TFR-Scraper
 Scrapes TFRs from FAA site https://tfr.faa.gov/ and details for each TFR.
@@ -80,7 +81,7 @@ save_detailed_all(filepath) #Does get_list_and_parse_all() and saves as a json, 
       ]
 ```
 #### Poly Arc
--Any shape with a arc point.
+- Any shape with a arc point.
 
 !<img src="https://raw.githubusercontent.com/Jxck-S/TFR-Scraper/main/examples/type-images/Poly-Arc.gif" width="40%">
 ```json
@@ -152,8 +153,8 @@ save_detailed_all(filepath) #Does get_list_and_parse_all() and saves as a json, 
 - "points" represents only straight line points, can be used with "arcPoint" and "arcRadius" to create full shape
 - "all_points" represents all points to create the entire polygon easily.
 #### Poly Exclude 
--Any shape, circle or poly that has parts that are excluded from TFR.
--Shape is returned as "all_points" only which represent one polygon excluding parts.
+- Any shape, circle or poly that has parts that are excluded from TFR.
+- Shape is returned as "all_points" only which represent one polygon excluding parts.
 !<img src="https://raw.githubusercontent.com/Jxck-S/TFR-Scraper/main/examples/type-images/Poly-Exclude.gif" width="40%">
 ```json
             "shapes": [
@@ -261,4 +262,5 @@ A detailed object when combined with info from list
 - html_table_parser.parser https://pypi.org/project/html-table-parser-python3/
 - untangle https://pypi.org/project/untangle/
 - pandas https://pypi.org/project/pandas/
+
 

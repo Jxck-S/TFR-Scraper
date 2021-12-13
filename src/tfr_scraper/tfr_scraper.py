@@ -71,10 +71,9 @@ def parse_tfr(notam_number, convert_degrees=True):
             if type(point_data) is list:
                 shape = {"type" : "poly", "points" : []}
                 for point in point_data:
-                    if hasattr(point, "valRadiusArc"):
+                    if hasattr(point, "valRadiusArc") and point.codeType.cdata != "GRC":
                         shape['type'] = "polyarc"
                         shape['arcRadius'] = point.valRadiusArc.cdata
-    
                         pair = (point.geoLatArc.cdata, point.geoLongArc.cdata)
                     else:
                         pair = (point.geoLat.cdata, point.geoLong.cdata)
