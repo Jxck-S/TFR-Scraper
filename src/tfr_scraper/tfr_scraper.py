@@ -160,7 +160,7 @@ def save_detailed_all(filepath="./detailed_tfrs.json"):
 def save_detailed_all_cleaned(filepath="./detailed_tfrs.json"):
     detailed_tfrs = get_list_and_parse_all()
     cleaned_tfrs = []
-    for tfr in enumerate(detailed_tfrs):
+    for tfr in detailed_tfrs:
         #Fix for Washington DC TFR 
         if tfr['NOTAM'] == '1/1155':
             tfr['details']['shapes'][0]['valDistVerUpper'] = 18000
