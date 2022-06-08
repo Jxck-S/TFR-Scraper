@@ -100,7 +100,7 @@ def parse_tfr(notam_number, convert_degrees=True):
                 points.append(pair)
             return points
         parsed['shapes'] = []
-        known_aseTFRAreaKeys = ["txtName", "valDistVerUpper", "valDistVerLower", "uomDistVerUpper", "uomDistVerLower"]
+        known_aseTFRAreaKeys = ["txtName", "valDistVerUpper", "valDistVerLower", "uomDistVerUpper", "uomDistVerLower", "codeExclVerUpper", "codeExclVerLower", "isScheduledTfrArea"]
         for shape_path in shape_paths:
             try:
                 if type(shape_path.aseShapes) is not list:
@@ -157,3 +157,12 @@ def save_as_json(input, filepath, indent=None):
 def save_detailed_all(filepath="./detailed_tfrs.json"):
     detailed_tfrs = get_list_and_parse_all()
     save_as_json(detailed_tfrs, filepath)
+def save_detailed_all_cleaned(filepath="./detailed_tfrs.json"):
+    detailed_tfrs = get_list_and_parse_all()
+    cleaned_tfrs = []
+    for tfr in enumerate(detailed_tfrs):
+        #Fix for Washington DC TFR 
+        if tfr['NOTAM'] == '1/1155':
+            tfr['details']['shapes'][0]['valDistVerUpper'] = 18000
+        cleaned_tfrs.append(tfr)
+    save_as_json(cleaned_tfrs, filepath)

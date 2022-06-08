@@ -11,6 +11,7 @@ tfr_list() #Returns the basic list of TFRs
 parse_tfr(notam_number, convert_degrees) #Parses a notam number in full format like (1/8339) and will return the details of the tfr. 
 get_list_and_parse_all(convert_degrees) #Downloads TFR list and parses all combines details with list and returns it. 
 save_detailed_all(filepath) #Does get_list_and_parse_all() and saves as a json, filepath is optional default is ./detailed_tfrs.json
+save_detailed_all_cleaned(filepath) #Does get_list_and_parse_all() but also cleans some broken tfrs and saves as a json, filepath is optional default is ./detailed_tfrs.json
 ```
 ### TFR/Shape types
 - TFRs have many types wether it be just a circle or a polygon or a TFR can have multiple circles/polygons, this scraper will parse each. 
