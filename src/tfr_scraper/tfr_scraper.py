@@ -1,12 +1,12 @@
 from numpy import compare_chararrays
 from untangle import parse
-
+from parsers import parse_shape, parse_merged_abd
 
 def url_get_contents(url):
-        import urllib.request
-        req = urllib.request.Request(url=url)
-        f = urllib.request.urlopen(req)
-        return f.read()
+    import urllib.request
+    req = urllib.request.Request(url=url)
+    f = urllib.request.urlopen(req)
+    return f.read()
 def tfr_list():
     """Downloads TFR table and parses, returns a list of tfrs as dictionaries"""
     url = "https://tfr.faa.gov"
@@ -25,15 +25,7 @@ def tfr_list():
     print(df)
     tfrs = df.to_dict('records')
     return tfrs
-def dms_to_dd(coord_pair):
-    """Converts a pair from Degrees Minute Seconds to Decimal Degrees """
-    # ("26.02333333N", 097.12833333W") >>  (26.02333333, -97.12833333)
-    #FAA coordinates in XML are technically DMS but only NESW part no minutes or seconds, not really a known standard for coordinates 
-    directions = {'N':1, 'S':-1, 'E': 1, 'W':-1}
-    new_pair = []
-    for coord in coord_pair:
-        new_pair.append(float(coord.strip("WNSE")) * directions[coord[-1]])
-    return new_pair
+
 def parse_tfr(notam_number, convert_degrees=True):
     "Parses a single TFR number for details, downloads details and returns dictionary"
     import requests
@@ -67,44 +59,12 @@ def parse_tfr(notam_number, convert_degrees=True):
         if type(shape_paths) is not list:
             shape_paths = [shape_paths]
 
-        def parse_shape(point_data):
-            if type(point_data) is list:
-                shape = {"type" : "poly", "points" : []}
-                for point in point_data:
-                    if hasattr(point, "valRadiusArc") and point.codeType.cdata != "GRC":
-                        shape['type'] = "polyarc"
-                        shape['arcRadius'] = point.valRadiusArc.cdata
-                        pair = (point.geoLatArc.cdata, point.geoLongArc.cdata)
-                    else:
-                        pair = (point.geoLat.cdata, point.geoLong.cdata)
-                    if convert_degrees:
-                        pair = dms_to_dd(pair)
-                    if shape['type'] == "polyarc" and "arcpoint" not in shape.keys():
-                        shape['arcPoint'] = pair
-                    else:
-                        shape["points"].append(pair)
-
-            else:
-                if convert_degrees:
-                    pair = dms_to_dd((point_data.geoLat.cdata, point_data.geoLong.cdata))
-                else:
-                    pair = (point_data.geoLat.cdata, point_data.geoLong.cdata)
-                shape = {"type" : "circle", "radius" : point_data.valRadiusArc.cdata, "lat" : pair[0], "lon" : pair[1]}
-            return shape
-        def parse_merged_abd(point_data):
-            points = []
-            for point in point_data:
-                pair = (point.geoLat.cdata, point.geoLong.cdata)
-                if convert_degrees:
-                    pair = dms_to_dd(pair)
-                points.append(pair)
-            return points
         parsed['shapes'] = []
         known_aseTFRAreaKeys = ["txtName", "valDistVerUpper", "valDistVerLower", "uomDistVerUpper", "uomDistVerLower", "codeExclVerUpper", "codeExclVerLower", "isScheduledTfrArea"]
         for shape_path in shape_paths:
             try:
                 if type(shape_path.aseShapes) is not list:
-                    shape = parse_shape(shape_path.aseShapes.Abd.Avx)
+                    shape = parse_shape(shape_path.aseShapes.Abd)
                 else:
                     #Ignores two exact circles
                     not_matching = False
@@ -127,8 +87,10 @@ def parse_tfr(notam_number, convert_degrees=True):
                         shape = {"type" : "polyexclude"}
                         shape['all_points'] = parse_merged_abd(shape_path.abdMergedArea.Avx)
                     else:
-                        shape = parse_shape(shape_path.aseShapes[0].Abd.Avx)
-                if shape['type'] == "polyarc":
+                        shape = parse_shape(shape_path.aseShapes[0].Abd)
+
+                #If Polyarc or linebuffer parse full outline, all coordinates (abdMergedArea)
+                if shape['type'] in ["polyarc", "linebuffer"]:
                     shape['all_points'] = parse_merged_abd(shape_path.abdMergedArea.Avx)
                 for key in known_aseTFRAreaKeys:
                     if hasattr(shape_path.aseTFRArea, key):
@@ -166,3 +128,13 @@ def save_detailed_all_cleaned(filepath="./detailed_tfrs.json"):
             tfr['details']['shapes'][0]['valDistVerUpper'] = 18000
         cleaned_tfrs.append(tfr)
     save_as_json(cleaned_tfrs, filepath)
+
+def detailed_all_cleaned():
+    detailed_tfrs = get_list_and_parse_all()
+    cleaned_tfrs = []
+    for tfr in detailed_tfrs:
+        #Fix for Washington DC TFR
+        if tfr['NOTAM'] == '1/1155':
+            tfr['details']['shapes'][0]['valDistVerUpper'] = 18000
+        cleaned_tfrs.append(tfr)
+    return cleaned_tfrs

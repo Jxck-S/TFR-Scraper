@@ -172,6 +172,49 @@ save_detailed_all_cleaned(filepath) #Does get_list_and_parse_all() but also clea
         },
             ]
 ```
+
+#### Line Buffer
+!<img src="https://raw.githubusercontent.com/Jxck-S/TFR-Scraper/main/examples/type-images/Line-Buffer.gif" width="40%">
+```json
+ "shapes": [
+                {
+                    "type": "linebuffer",
+                    "points": [
+                        [
+                            47.72194444,
+                            -91.83277778
+                        ],
+                        [
+                            47.66277778,
+                            -91.90222222
+                        ],
+                        [
+                            47.63,
+                            -92.02638889
+                        ]
+                    ],
+                    "valBuffer": "2",
+                    "codeGeoFeatureType": "LINE",
+                    "codeBufferBevel": "ROUNDED",
+                    "all_points": [
+                        [
+                            47.63577472,
+                            -92.07492876
+                        ],
+                      #Many more points
+                    ],
+                    "txtName": "Hazard Area1",
+                    "valDistVerUpper": "5500",
+                    "valDistVerLower": "0",
+                    "uomDistVerUpper": "FT",
+                    "uomDistVerLower": "FT",
+                    "codeExclVerUpper": "INCLUDE",
+                    "codeExclVerLower": "INCLUDE",
+                    "isScheduledTfrArea": "FALSE"
+                }
+            ]
+```
+
 ## TFR JSON objects
 Single TFR object from list w/o details parsed
 ```json [
@@ -241,6 +284,7 @@ A detailed object when combined with info from list
     }
   }
 ```
+
 - [Basic list JSON example](https://github.com/Jxck-S/TFR-Scraper/blob/main/examples/tfrs.json)
 - [Detailed list JSON example](https://github.com/Jxck-S/TFR-Scraper/blob/main/examples/detailed_tfrs.json) 
 ## Requirements 

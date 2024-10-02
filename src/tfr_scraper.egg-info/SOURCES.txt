@@ -2,6 +2,8 @@ LICENSE
 README.md
 setup.py
 src/tfr_scraper/__init__.py
+src/tfr_scraper/coordinates.py
+src/tfr_scraper/parsers.py
 src/tfr_scraper/tfr_scraper.py
 src/tfr_scraper.egg-info/PKG-INFO
 src/tfr_scraper.egg-info/SOURCES.txt
