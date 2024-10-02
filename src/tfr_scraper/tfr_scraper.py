@@ -1,6 +1,5 @@
-from numpy import compare_chararrays
 from untangle import parse
-from parsers import parse_shape, parse_merged_abd
+from tfr_scraper.parsers import parse_shape, parse_merged_abd
 
 def url_get_contents(url):
     import urllib.request

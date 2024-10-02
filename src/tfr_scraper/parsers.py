@@ -1,4 +1,4 @@
-from coordinates import dms_to_dd
+from tfr_scraper.coordinates import dms_to_dd
 def parse_shape(abd, convert_degrees=True):
         avxs = abd.Avx
         if type(avxs) is list:
